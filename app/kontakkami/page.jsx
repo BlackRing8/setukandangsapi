@@ -1,6 +1,7 @@
 "use client";
 import "./styleKontak.css";
 import { useEffect } from "react";
+import Image from "next/image";
 
 const Contact = () => {
   useEffect(() => {
@@ -36,19 +37,19 @@ const Contact = () => {
     <section className="w-full h-[80vh] flex overflow-hidden items-center justify-center">
       <div className="max-w-full w-[820px] h-[500px] bg-secondary rounded-xl frm-con">
         <div className="contact-info">
-          <h3 className="title dark:text-[#fff]">Let's get in touch</h3>
+          <h3 className="title dark:text-[#fff]">Let&apos;s get in touch</h3>
           <p className="text dark:text-[#fff]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum adipisci recusandae praesentium dicta!</p>
           <div className="info">
             <div className="information dark:text-[#fff]">
-              <img src="/img/location.png" className="icon" alt="" />
+              <Image src="/img/location.png" className="icon" alt="" width={500} height={300} />
               <p>92 Cherry Drive Uniondale, NY 11553</p>
             </div>
             <div className="information dark:text-[#fff]">
-              <img src="/img/email.png" className="icon" alt="" />
+              <Image src="/img/email.png" className="icon" alt="" width={500} height={300} />
               <p>lorem@ipsum.com</p>
             </div>
             <div className="information dark:text-[#fff]">
-              <img src="/img/phone.png" className="icon" alt="" />
+              <Image src="/img/phone.png" className="icon" alt="" width={500} height={300} />
               <p>123-456-789</p>
             </div>
           </div>
