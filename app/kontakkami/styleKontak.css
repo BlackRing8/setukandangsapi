@@ -2,7 +2,7 @@
   box-shadow: 0 0 20px 1px #c4c5b7;
   overflow: hidden;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .contact-form {

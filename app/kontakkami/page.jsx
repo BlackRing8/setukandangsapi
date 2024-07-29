@@ -36,21 +36,26 @@ const Contact = () => {
   return (
     <section className="w-full h-[80vh] flex overflow-hidden items-center justify-center">
       <div className="max-w-full w-[820px] h-[500px] bg-secondary rounded-xl frm-con">
-        <div className="contact-info">
-          <h3 className="title dark:text-[#fff]">Let&apos;s get in touch</h3>
-          <p className="text dark:text-[#fff]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum adipisci recusandae praesentium dicta!</p>
+        <div className="contact-info justify-center">
+          <h3 className="title dark:text-[#fff] font-bold">INFORMASI LEBIH LANJUT!</h3>
+          <p className="text dark:text-[#fff]">Untuk pertanyaan seputar Setu Kandang Sapi ini dapat menghubungi kami pada nomor dibawah ini:</p>
           <div className="info">
             <div className="information dark:text-[#fff]">
               <Image src="/img/location.png" className="icon" alt="" width={500} height={300} />
-              <p>92 Cherry Drive Uniondale, NY 11553</p>
+              <a
+                href="https://www.google.co.id/maps/place/setu+kandang+sapi/@-6.51185,106.781632,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69c3f48526329b:0xba55f76993af340b!8m2!3d-6.5118553!4d106.7842069!16s%2Fg%2F11vld46bbw?entry=ttu"
+                className="hover:text-blue-500 hover:underline"
+              >
+                Jl. Tanah Baru, RT.03/RW.06, Waringin Jaya, Kecamatan Bojonggede
+              </a>
             </div>
             <div className="information dark:text-[#fff]">
               <Image src="/img/email.png" className="icon" alt="" width={500} height={300} />
-              <p>lorem@ipsum.com</p>
+              <a href="mailto:desawaringinjaya2021@gmail.com">desawaringinjaya2021@gmail.com</a>
             </div>
             <div className="information dark:text-[#fff]">
               <Image src="/img/phone.png" className="icon" alt="" width={500} height={300} />
-              <p>123-456-789</p>
+              <a href="https://wa.me/6285156322774?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda.">123-456-789</a>
             </div>
           </div>
           <div className="social-media">
@@ -70,29 +75,6 @@ const Contact = () => {
               </a>
             </div>
           </div>
-        </div>
-        <div className="contact-form bg-primary before:bg-primary">
-          <span className="circle one"></span>
-          <span className="circle two"></span>
-          <form>
-            <h3 className="title font-extrabold text-2xl uppercase">Hubungi Kami</h3>
-            <div className="input-container">
-              <input type="text" nama="name" className="input  dark:border-[#fafafa]" />
-              <label>Nama</label>
-              <span>Nama</span>
-            </div>
-            <div className="input-container ">
-              <input type="text" nama="name" className="input dark:border-[#fafafa] " />
-              <label>Email</label>
-              <span>Email</span>
-            </div>
-            <div className="input-container textarea">
-              <textarea nama="message" className="input dark:border-[#fafafa]" />
-              <label>Pesan</label>
-              <span>Pesan</span>
-            </div>
-            <input type="submit" value="KIRIM" className="btn bg-black text-white dark:bg-white dark:text-primary" />
-          </form>
         </div>
       </div>
     </section>
