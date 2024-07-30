@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import { Button } from "../ui/button";
 import React from "react";
@@ -9,24 +10,27 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 import ProjectCard from "./ProjectCard";
+import { motion } from "framer-motion";
 
 const projectData = [
   {
     image: "/footage/1g.jpeg",
     name: "Pemancingan",
-
     link: "https://www.instagram.com/reel/CyTGGPSvZ93/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     image: "/footage/f6.jpeg",
     name: "Perahu bebek",
-
     link: "https://www.instagram.com/tv/CdN6zKQBc9Q/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     image: "/footage/f1.jpeg",
     name: "Running Track",
-
+    link: "https://www.instagram.com/reel/CxkGpCmvNF-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
+    image: "/footage/3g.jpeg",
+    name: "Perahu kayak",
     link: "https://www.instagram.com/reel/CxkGpCmvNF-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
 ];
@@ -35,14 +39,16 @@ const Fasilitas = () => {
   return (
     <section className="relative mb-12 xl:mb-48 p-8  mt-10">
       <div className="container mx-auto">
-        <div className=" max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-0 sm:mb-12 xl:h-[300px] flex flex-col justify-center items-center xl:items-start">
+        <div className=" max-w-[400px] mx-auto xl:mx-0 lg:text-start mb-0 sm:mb-12 xl:h-[300px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4 font-semibold text-3xl sm:text-5xl">Fasilitas</h2>
-          <p className="mb-8 sm:text-xl">Di Setu kandang sapi ini kami memiliki beberapa fasilitas yang cukup menarik.</p>
+          <p className="mb-8 text-xl text-center lg:text-start lg:text-xl">Ada apa aja sih di setu kandang sapi ini?. Jadi di Setu kandang sapi ini kami memiliki beberapa fasilitas yang cukup menarik seperti berikut ini.</p>
           <Link href="/kontakkami">
             <Button className="font-bold ">Hubungi Kami!</Button>
           </Link>
         </div>
+
         {/* Slider */}
+
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
           <Swiper
             className="h-[480px]"
