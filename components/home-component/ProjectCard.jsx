@@ -13,9 +13,9 @@ const ProjectCard = ({ project }) => {
       </CardHeader>
       <div className="h-full px-8 py-2">
         <h4 className="h4 mb-1 font-bold text-xl">{project.name}</h4>
-        <p className="text-muted-foreground text-lg">{project.description}</p>
+
         <Link href={project.link} className="flex my-3">
-          <Instagram /> <span className="ml-3 font-semibold">Selengkapnya</span>
+          <Instagram /> <span className="ml-3 font-semibold text-blue-500">Selengkapnya</span>
         </Link>
       </div>
     </Card>

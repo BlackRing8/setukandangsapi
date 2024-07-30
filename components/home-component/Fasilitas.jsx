@@ -14,19 +14,19 @@ const projectData = [
   {
     image: "/footage/1g.jpeg",
     name: "Pemancingan",
-    description: "Lorem ipsum dolor sit amet..",
+
     link: "https://www.instagram.com/reel/CyTGGPSvZ93/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     image: "/footage/f6.jpeg",
     name: "Perahu bebek",
-    description: "Lorem ipsum dolor sit amet.",
+
     link: "https://www.instagram.com/tv/CdN6zKQBc9Q/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     image: "/footage/f1.jpeg",
     name: "Running Track",
-    description: "Lorem ipsum dolor sit amet.",
+
     link: "https://www.instagram.com/reel/CxkGpCmvNF-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
 ];

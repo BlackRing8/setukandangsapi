@@ -44,18 +44,22 @@ const Contact = () => {
               <Image src="/img/location.png" className="icon" alt="" width={500} height={300} />
               <a
                 href="https://www.google.co.id/maps/place/setu+kandang+sapi/@-6.51185,106.781632,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69c3f48526329b:0xba55f76993af340b!8m2!3d-6.5118553!4d106.7842069!16s%2Fg%2F11vld46bbw?entry=ttu"
-                className="hover:text-blue-500 hover:underline"
+                className="text-blue-500 hover:underline"
               >
                 Jl. Tanah Baru, RT.03/RW.06, Waringin Jaya, Kecamatan Bojonggede
               </a>
             </div>
             <div className="information dark:text-[#fff]">
               <Image src="/img/email.png" className="icon" alt="" width={500} height={300} />
-              <a href="mailto:desawaringinjaya2021@gmail.com">desawaringinjaya2021@gmail.com</a>
+              <a href="mailto:https://mail.google.com/mail/?view=cm&fs=1&to=desawaringinjaya2021@gmail.com&su=Subjek%20Email&body=Isi%20pesan%20di%20sini." className="text-blue-500">
+                desawaringinjaya2021@gmail.com
+              </a>
             </div>
             <div className="information dark:text-[#fff]">
               <Image src="/img/phone.png" className="icon" alt="" width={500} height={300} />
-              <a href="https://wa.me/6285156322774?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20produk%20Anda.">123-456-789</a>
+              <a href="https://wa.me/62895321284109?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20setu%20kandang%20Sapi." className="text-blue-500 hover:underline">
+                +62 895-3212-84109
+              </a>
             </div>
           </div>
           <div className="social-media">
