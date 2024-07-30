@@ -26,7 +26,7 @@ const Detail = () => {
         <div className="flex w-full lg:w-1/2 h-1/2 lg:h-full lg:justify-end lg:items-center">
           <div className="w-full h-full lg:w-[600px] lg:h-[500px]  ">
             <h4 className="font-extrabold text-2xl lg:text-4xl text-center lg:text-end mt-10 lg:mt-20">Perahu bebek</h4>
-            <p className="font-extralight text-xl lg:text-2xl  text-center lg:text-end mt-10 px-1">
+            <p className=" text-xl lg:text-2xl  text-center lg:text-end mt-10 px-1">
               Kami memiliki Perahu bebek kayuh, perahu bebek kayuh ini berbentuk ikan dan digerakkan dengan cara dikayuh. Perahu ini aman untuk menikmati pemandangan sekitar danau Setu Kandang sapi.
             </p>
           </div>
@@ -46,7 +46,7 @@ const Detail = () => {
         <div className="flex w-full lg:w-1/2 h-1/2 lg:h-full lg:justify-start lg:items-center">
           <div className="w-full h-full lg:w-[600px] lg:h-[500px]  ">
             <h4 className="font-extrabold text-2xl lg:text-4xl text-center lg:text-start mt-10 lg:mt-20">Track lari</h4>
-            <p className="font-extralight text-xl lg:text-2xl text-center lg:text-start mt-10 px-1">
+            <p className=" text-xl lg:text-2xl text-center lg:text-start mt-10 px-1">
               Setu kandang sapi juga memiliki Track lari yang mengelilingi danau Setu kandang sapi ini, Pengunjung atau warga sekitar biasanya berolahraga di pagi atau sore hari sekaligus menikmati pemandangan sekitar dan udara segar.
             </p>
           </div>
